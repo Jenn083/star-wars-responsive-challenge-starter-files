@@ -1,9 +1,26 @@
 
-
-
-.border {
-	border: 7px solid black;
+body {
+	padding-top: 100px;
+}
+body .row {
+	margin-bottom: 20px;
 }
 
 
+
+img {
+	height: 200px;
+	width: 200px;
+	padding-top: 50px;
+}
+
 	
+.background {
+	background-color: orange;
+	padding-left: 10px;
+}
+
+div > h2 {
+	font-size: 19px;
+	font-weight: normal;
+}

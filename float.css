@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right:20px;
+	margin: 0 auto;
+}
+
+.row::before,
+.row::after {
+	display: table;
+	content:'';
+}
+
+.row::after {
+	clear: both;
+}
+
+.border {
+	float: left;
+	padding-left: 1.04166666%;
+	padding-right:1.04166666%;
+}
+/* Mobile defaults */
+
+.border {
+	width: 100%;
+}
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 640%) {
+
+	.border {
+		width: 25%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
