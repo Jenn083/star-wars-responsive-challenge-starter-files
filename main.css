@@ -2,25 +2,29 @@
 body {
 	padding-top: 100px;
 }
-body .row {
-	margin-bottom: 20px;
-}
 
 
 
 img {
 	height: 200px;
 	width: 200px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 	
 .background {
 	background-color: orange;
-	padding-left: 10px;
+	padding-left: 179px;
 }
 
 div > h2 {
 	font-size: 19px;
 	font-weight: normal;
 }
+
+.border {
+	border: 1px solid black;
+
+
+}
+
